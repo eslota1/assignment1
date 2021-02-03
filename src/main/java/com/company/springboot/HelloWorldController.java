@@ -8,6 +8,6 @@ public class HelloWorldController {
 
     @RequestMapping("/")
     public String index() {
-        return "Hello World from ABC Inc., est 2020.";
+        return "Hello World from ABC Inc.!";
     }
 }
